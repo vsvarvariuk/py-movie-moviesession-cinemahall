@@ -1,7 +1,7 @@
 from db.models import CinemaHall
 
 
-def get_cinema_halls():
+def get_cinema_halls() -> None:
     return CinemaHall.objects.all()
 
 
